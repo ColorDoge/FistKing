@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fistking.MainActivity"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/game_icon"/>
+
+    <ImageView
+        android:id="@+id/boyandgirl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/g_b_1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="90dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:background="@drawable/background6">
+        <!--android:foreground="@drawable/background_gradient">-->
+        <!--android:background="@drawable/background_gradient">-->
+
+        <ImageView
+            android:id="@+id/iv_learn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_learn"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_play"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"/>
+
+        <ImageView
+            android:id="@+id/iv_quit_game"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_quit"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iv_stars"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"/>
+    
+    <ImageView
+        android:id="@+id/iv_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iv_heart"
+        android:layout_alignStart="@+id/boyandgirl"
+        android:layout_alignBottom="@+id/boyandgirl"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="80dp"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_sound_open"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:src="@drawable/iv_sound_open"/>-->
+
+    <ImageView
+        android:id="@+id/iv_infomation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/iv_infomation"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_pause"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/iv_pause"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:visibility="invisible"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_no"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/iv_no"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="100dp"-->
+        <!--android:layout_marginStart="20dp"/>-->
+        <!--&lt;!&ndash;android:visibility="invisible"/>&ndash;&gt;-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_yes"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/iv_yes"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="100dp"-->
+        <!--android:layout_marginEnd="20dp"/>-->
+        <!--android:visibility="invisible"/>-->
+
+</RelativeLayout>
